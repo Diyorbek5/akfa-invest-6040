@@ -457,11 +457,11 @@ const data2025 = {
 
 const dataForecast = {
   turnover: [16000000000, 17000000000, 18000000000, 21000000000, 24000000000, 26000000000, 27000000000, 30000000000, 30000000000, 26000000000, 23000000000, 18000000000],
-  profit:   [ 420000000,  460000000,  500000000,  620000000,  820000000,  900000000, 1040000000, 1060000000, 1060000000,  900000000,  780000000,  480000000],
+  profit:   [ 168000000,  184000000,  200000000,  248000000,  328000000,  360000000,  416000000,  424000000,  424000000,  360000000,  312000000,  192000000],
   totalTurnover: 276000000000,
-  totalProfit: 9040000000,
-  avgProfit: 753333333,
-  margin: 3.28
+  totalProfit: 3616000000,
+  avgProfit: 301333333,
+  margin: 1.31
 };
 
 // -------------------------------------------------------------
@@ -868,8 +868,8 @@ const dataForecast = {
 
   const cardsF = [
     { title: 'PROGNOZ JAMI AYLANMA', val: '276.00 mlrd UZS', sub: '2025 ga nisbatan: +107% o‘sish', col: C_WHITE },
-    { title: 'PROGNOZ SOF FOYDA', val: '9.04 mlrd UZS', sub: '2025 ga nisbatan: +249% o‘sish', col: C_GREEN },
-    { title: 'O‘RTACHA FOYDA MARJASI', val: '3.28%', sub: 'Hajm hisobiga marja tiklanishi', col: C_RED },
+    { title: 'PROGNOZ SOF FOYDA', val: '3.616 mlrd UZS', sub: '2025 ga nisbatan: +39.5% o‘sish', col: C_GREEN },
+    { title: 'O‘RTACHA FOYDA MARJASI', val: '1.31%', sub: 'Hajm hisobiga marja tiklanishi', col: C_RED },
     { title: 'AYLANMADAGI KAPITAL', val: '$3,000,000', sub: 'Iyul oyida aylanmada turgan summa', col: C_WHITE }
   ];
 
@@ -887,7 +887,7 @@ const dataForecast = {
   // Chart: Historical vs Forecast
   const compFore = [
     { name: 'Aylanma (mlrd UZS)', labels: ['2023', '2024', '2025', 'Prognoz'], values: [193.24, 172.20, 133.10, 276.00] },
-    { name: 'Sof Foyda (mlrd UZS)', labels: ['2023', '2024', '2025', 'Prognoz'], values: [5.92, 4.63, 2.59, 9.04] }
+    { name: 'Sof Foyda (mlrd UZS)', labels: ['2023', '2024', '2025', 'Prognoz'], values: [5.92, 4.63, 2.59, 3.616] }
   ];
   s.addChart(pres.ChartType.bar, compFore, {
     x: 0.8, y: 4.0, w: 11.7, h: 3.0,
@@ -922,7 +922,7 @@ const dataForecast = {
     const turn = dataForecast.turnover[idx];
     const prof = dataForecast.profit[idx];
     const mrg = ((prof / turn) * 100).toFixed(2) + '%';
-    const note = (idx === 6) ? '3,000,000 $ (Pik)' : (idx === 0 ? '753.3 mln o‘rtacha daromad' : '-');
+    const note = (idx === 6) ? '3,000,000 $ (Pik)' : (idx === 0 ? '301.3 mln o‘rtacha daromad' : '-');
 
     tableRows.push([
       { text: m, options: { color: C_WHITE, fill: { color: idx % 2 === 0 ? C_PANEL : C_CARD } } },
@@ -938,7 +938,7 @@ const dataForecast = {
     { text: formatNum(dataForecast.totalTurnover), options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_GREEN } } },
     { text: formatNum(dataForecast.totalProfit), options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_GREEN } } },
     { text: dataForecast.margin.toFixed(2) + '%', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_GREEN } } },
-    { text: '9.04 mlrd sof foyda', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_GREEN } } }
+    { text: '3.616 mlrd sof foyda', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_GREEN } } }
   ]);
 
   s.addTable(tableRows, {

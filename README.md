@@ -56,3 +56,5 @@ akfa-invest/
 └── package.json                           — Loyiha konfiguratsiyasi va bog'liqliklar
 ```
 
+
+# akfa-invest-6040-new
