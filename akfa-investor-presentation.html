@@ -50,15 +50,38 @@ body {
   transition: width 0.3s ease;
 }
 
-#slide-counter {
+#top-bar {
   position: fixed;
-  top: 24px;
+  top: 20px;
   right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 9999;
+}
+
+/* Official AKFA Logo Badge (Top Right Corner) */
+.akfa-logo-pill {
+  background: #FFFFFF;
+  padding: 7px 16px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  flex-shrink: 0;
+}
+.akfa-logo-img {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+
+#slide-counter {
   font-family: var(--font-mono);
   font-size: 13px;
   font-weight: 600;
   color: var(--silver);
-  z-index: 9999;
   background: rgba(23,24,25,0.7);
   backdrop-filter: blur(8px);
   padding: 6px 14px;
@@ -715,11 +738,75 @@ body {
   line-height: 1.4;
 }
 
+/* Strategic Partnership Slide */
+.partner-badge {
+  position: absolute;
+  top: 26px;
+  left: 32px;
+  z-index: 2;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--akfa-red);
+  background: rgba(238,53,38,0.12);
+  border: 1px solid rgba(238,53,38,0.45);
+  padding: 4px 14px;
+  border-radius: 20px;
+}
+.partner-photo {
+  position: relative;
+  width: 560px;
+  max-width: 100%;
+  height: 240px;
+  margin: 0 auto 18px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(238,53,38,0.5);
+  box-shadow: 0 16px 44px rgba(0,0,0,0.7), 0 0 30px rgba(238,53,38,0.18);
+}
+.partner-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+  display: block;
+}
+.partner-photo-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20,21,23,0.02) 0%, rgba(20,21,23,0.15) 60%, rgba(20,21,23,0.85) 100%);
+}
+.partner-photo-tags {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.partner-pill {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 9px 24px;
+  font-size: 13.5px;
+  font-weight: 700;
+  backdrop-filter: blur(6px);
+}
+.partner-pill.red { background: rgba(238,53,38,0.15); border-color: rgba(238,53,38,0.5); color: #FFA59C; }
+.partner-pill.green { background: rgba(16,185,129,0.15); border-color: rgba(16,185,129,0.5); color: #6EE7B7; }
+.partner-pill.silver { background: rgba(185,190,194,0.15); border-color: rgba(185,190,194,0.35); color: var(--white); }
+
 </style>
 </head>
 <body>
 <div id="progress-bar" style="width:0%"></div>
+<div id="top-bar">
 <div id="slide-counter">01 / 30</div>
+<div class="akfa-logo-pill"><img src="assets/akfa-logo.png" alt="AKFA" class="akfa-logo-img"></div>
+</div>
 <div id="nav-dots"></div>
 <div class="scroll-hint">
 <span>Navigatsiya:</span>
@@ -1567,8 +1654,33 @@ body {
 </div>
 </div>
 
-<!-- ======================= SLIDE 27: THANK YOU ======================= -->
+<!-- ======================= SLIDE 27: STRATEGIC PARTNERSHIP ======================= -->
 <div class="slide dark" data-slide="26">
+<img src="assets/hero-bg.jpg" class="bg-image" style="opacity:0.2" alt="">
+<div class="bg-overlay"></div>
+<div class="bg-pattern" style="z-index:1"></div>
+<div class="partner-badge">Strategik Hamkorlik</div>
+<div class="slide-inner" style="text-align:center;max-width:900px">
+<h1 class="hero-title" style="font-size:56px;line-height:1.1;letter-spacing:-1.5px;margin-bottom:8px">Yangi Hamkorligimiz <span class="red-accent">Barakali Bo'lsin!</span></h1>
+<p class="lead" style="margin:0 auto 16px;font-size:16px">AKFA Dilerlik Biznesi &amp; Investor — Ishonchli Sheriklik va Muvaffaqiyatli Kelajak Sari</p>
+<div class="partner-photo">
+<img src="assets/handshake.jpg" alt="Hamkorlik qo'l siqishish">
+<div class="partner-photo-shade"></div>
+<div class="partner-photo-tags">
+<div class="partner-pill red" style="padding:5px 18px;font-size:12px;background:rgba(20,21,23,0.85);border-color:rgba(238,53,38,0.6)">🤝 Strategik Hamkorlik</div>
+<div class="partner-pill green" style="padding:5px 18px;font-size:12px;background:rgba(20,21,23,0.85);border-color:rgba(16,185,129,0.6)">💼 Ishonchli va Barqaror Kelajak</div>
+</div>
+</div>
+<div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+<div class="partner-pill red">🤝 O'zaro Manfaatli Hamkorlik</div>
+<div class="partner-pill green">📈 Barqaror O'sish &amp; Yuqori Daromad</div>
+<div class="partner-pill silver">🔒 100% Shaffof va Himoyalangan Kapital</div>
+</div>
+</div>
+</div>
+
+<!-- ======================= SLIDE 28: THANK YOU ======================= -->
+<div class="slide dark" data-slide="27">
 <img src="assets/hero-bg.jpg" class="bg-image" style="opacity:0.15" alt="">
 <div class="bg-overlay"></div>
 <div class="slide-inner" style="text-align:center">
