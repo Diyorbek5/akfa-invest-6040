@@ -664,7 +664,7 @@ html, body {
             PROGNOZ
           </div>
           <div style="font-family:var(--font-mono);font-size:13px;font-weight:800;color:#6EE7B7;background:rgba(16,185,129,0.18);padding:5px 12px;border-radius:6px;">
-            Marja: 3.28%
+            Marja: 1.31%
           </div>
         </div>
 
@@ -679,9 +679,9 @@ html, body {
           <div style="background:var(--dark-card);border-radius:8px;padding:14px 18px;border:1px solid rgba(16,185,129,0.3);">
             <div style="font-size:11px;font-weight:700;color:var(--neutral);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">Prognoz Sof Foyda</div>
             <div style="font-family:var(--font-mono);font-size:36px;font-weight:900;color:var(--green);line-height:1.05;">
-              9.04 <span style="font-size:18px;color:#A7F3D0;">mlrd</span>
+              3.616 <span style="font-size:18px;color:#A7F3D0;">mlrd</span>
             </div>
-            <div style="font-size:11px;color:var(--green);font-weight:700;margin-top:2px;">▲ +249.0%</div>
+            <div style="font-size:11px;color:var(--green);font-weight:700;margin-top:2px;">▲ +39.5%</div>
           </div>
         </div>
       </div>
@@ -706,7 +706,7 @@ html, body {
       <div style="height:32px;width:1px;background:var(--dark-border);"></div>
       <div style="text-align:center;">
         <div style="font-size:11px;color:var(--neutral);font-weight:700;text-transform:uppercase;">Prognoz Yillik Sof Foyda</div>
-        <div style="font-family:var(--font-mono);font-size:22px;font-weight:800;color:var(--green);">9.04 mlrd so'm</div>
+        <div style="font-family:var(--font-mono);font-size:22px;font-weight:800;color:var(--green);">3.616 mlrd so'm</div>
       </div>
     </div>
 
@@ -1125,7 +1125,7 @@ html, body {
 
 <!-- ===================================================================
      PAGE 8 (Slide 22): INVESTOR PROGNOZI — UMUMIY KO'RINISH
-     (Ortiqcha oylik izohlarsiz, to'liq to'ldirilgan va aniq 9.04 mlrd)
+     (Ortiqcha oylik izohlarsiz, to'liq to'ldirilgan va aniq 3.616 mlrd)
      =================================================================== -->
 <section class="slide-page" id="page-8">
   <div class="bg-pattern"></div>
@@ -1227,7 +1227,7 @@ html, body {
 
 <!-- ===================================================================
      PAGE 9 (Slide 23): INVESTOR PROGNOZI — 12 OYLIK JADVAL
-     (Ortiqcha izohlarsiz, toza 5 ta ustun, Iyul: 1,040 mln, Jami: 9.04 mlrd)
+     (Ortiqcha izohlarsiz, toza 4 ta ustun, Iyul: 416 mln, Jami: 3.616 mlrd)
      =================================================================== -->
 <section class="slide-page" id="page-9">
   <div class="bg-pattern"></div>
@@ -1393,7 +1393,7 @@ html, body {
         </div>
       </div>
 
-      <!-- Chart 2: Foyda (Iyul 1040 mln) -->
+      <!-- Chart 2: Foyda (Iyul 416 mln) -->
       <div class="chart-box">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
           <div style="font-size:13px;font-weight:800;text-transform:uppercase;color:var(--silver);letter-spacing:1px;">

@@ -1082,41 +1082,41 @@ const dataForecast = {
     [
       { text: 'A: Konservativ Ulush', options: { color: C_WHITE, fill: { color: C_PANEL } } },
       { text: '20.0%', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_PANEL } } },
-      { text: '$140,800', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
-      { text: '7.0% / yil', options: { color: C_SILVER, align: 'right', fill: { color: C_PANEL } } },
-      { text: '14.2 yil', options: { color: C_GRAY, align: 'right', fill: { color: C_PANEL } } },
+      { text: '$56,320', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
+      { text: '2.8% / yil', options: { color: C_SILVER, align: 'right', fill: { color: C_PANEL } } },
+      { text: '35.5 yil', options: { color: C_GRAY, align: 'right', fill: { color: C_PANEL } } },
       { text: 'Minimal xavf va passiv ishtirok modeli.', options: { color: C_SILVER, fill: { color: C_PANEL } } }
     ],
     [
       { text: 'B: Muvozanatli Ulush', options: { color: C_WHITE, fill: { color: C_CARD } } },
       { text: '25.0%', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_CARD } } },
-      { text: '$176,000', options: { color: C_GREEN, align: 'right', fill: { color: C_CARD } } },
-      { text: '8.8% / yil', options: { color: C_SILVER, align: 'right', fill: { color: C_CARD } } },
-      { text: '11.4 yil', options: { color: C_GRAY, align: 'right', fill: { color: C_CARD } } },
+      { text: '$70,400', options: { color: C_GREEN, align: 'right', fill: { color: C_CARD } } },
+      { text: '3.5% / yil', options: { color: C_SILVER, align: 'right', fill: { color: C_CARD } } },
+      { text: '28.4 yil', options: { color: C_GRAY, align: 'right', fill: { color: C_CARD } } },
       { text: 'Standart xususiy sarmoya (Private Equity) sharti.', options: { color: C_SILVER, fill: { color: C_CARD } } }
     ],
     [
       { text: 'C: Standart Hamkorlik (Tavsiya)', options: { bold: true, color: C_WHITE, fill: { color: C_PANEL } } },
       { text: '30.0%', options: { bold: true, color: C_RED, align: 'right', fill: { color: C_PANEL } } },
-      { text: '$211,200', options: { bold: true, color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
-      { text: '10.6% / yil', options: { bold: true, color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
-      { text: '9.5 yil', options: { color: C_SILVER, align: 'right', fill: { color: C_PANEL } } },
+      { text: '$84,480', options: { bold: true, color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
+      { text: '4.2% / yil', options: { bold: true, color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
+      { text: '23.7 yil', options: { color: C_SILVER, align: 'right', fill: { color: C_PANEL } } },
       { text: 'Har ikki tomon uchun eng maqbul adolatli balans.', options: { color: C_WHITE, fill: { color: C_PANEL } } }
     ],
     [
       { text: 'D: Yuqori Rentabellik', options: { color: C_WHITE, fill: { color: C_CARD } } },
       { text: '35.0%', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_CARD } } },
-      { text: '$246,400', options: { color: C_GREEN, align: 'right', fill: { color: C_CARD } } },
-      { text: '12.3% / yil', options: { color: C_GREEN, align: 'right', fill: { color: C_CARD } } },
-      { text: '8.1 yil', options: { color: C_SILVER, align: 'right', fill: { color: C_CARD } } },
+      { text: '$98,560', options: { color: C_GREEN, align: 'right', fill: { color: C_CARD } } },
+      { text: '4.9% / yil', options: { color: C_GREEN, align: 'right', fill: { color: C_CARD } } },
+      { text: '20.3 yil', options: { color: C_SILVER, align: 'right', fill: { color: C_CARD } } },
       { text: 'Investorga imtiyozli dividend to‘lash ssenariysi.', options: { color: C_SILVER, fill: { color: C_CARD } } }
     ],
     [
       { text: 'E: Strategik Nazorat', options: { color: C_WHITE, fill: { color: C_PANEL } } },
       { text: '40.0%', options: { bold: true, color: C_WHITE, align: 'right', fill: { color: C_PANEL } } },
-      { text: '$281,600', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
-      { text: '14.1% / yil', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
-      { text: '7.1 yil', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
+      { text: '$112,640', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
+      { text: '5.6% / yil', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
+      { text: '17.8 yil', options: { color: C_GREEN, align: 'right', fill: { color: C_PANEL } } },
       { text: 'Boshqaruvda faol ishtirok etuvchi investor uchun.', options: { color: C_SILVER, fill: { color: C_PANEL } } }
     ]
   ];
